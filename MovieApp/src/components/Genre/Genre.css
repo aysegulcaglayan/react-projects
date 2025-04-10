@@ -1,0 +1,35 @@
+.genres{
+    height:38px;
+    display: flex;
+    padding: 50px 30px;
+    align-items: center;
+    color: #dedede;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+.genres ul{
+display: flex;
+list-style: none;
+gap:11px;
+width: 100%;
+justify-content: space-between;
+}
+.genres ul li {
+    cursor: pointer;
+    font-size: 23px;
+    transition: all 0.3s;
+}
+
+.genres ul li:hover {  
+    transform: scale(1.3);
+    color: #ffcc00;
+}
+.genres ul li.active{
+    background-color: #ffcc00;
+    color:#000000;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.genres ul li.active:hover{
+    color:#000000
+}

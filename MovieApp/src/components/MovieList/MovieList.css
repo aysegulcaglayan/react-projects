@@ -1,0 +1,16 @@
+.Movie-List{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 48px;
+}
+.Movie-List ul{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+.Movie-List h1{
+    color: #dedede;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+}

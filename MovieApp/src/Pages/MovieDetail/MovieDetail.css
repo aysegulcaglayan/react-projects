@@ -1,0 +1,137 @@
+.movieDetail{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 1000px;
+
+    border-radius: 10px;
+    padding: 60px 20px;
+    color: #dedede;
+    position: relative;
+    z-index: 1;
+    max-width: 100% !important; /* Tam ekran genişliği alır */
+}
+
+
+
+
+.backdrop{
+position: fixed;
+    height:100%;
+    width: max-content;
+    object-fit: cover;
+    z-index: -1;
+    filter: blur(1px) opacity(.3);
+    left: 0;
+  
+ 
+}
+
+.movieDetail h1{
+    position: relative;
+   padding-top: 100px;
+   font-size: 32px;
+   font-weight: 700;
+
+
+}
+.container{
+    justify-content: center;
+ 
+
+}
+.poster img {
+    width: 100%;
+    height:auto;
+    padding: 20px;
+
+
+
+}
+.vote{
+    display: flex;
+    gap:15px;
+    font-size: large;
+
+}
+.vote svg{
+    margin-left: 5px;
+    color:#ffae00
+}
+.genre ul{
+list-style: none;
+display: flex;
+gap:5px;
+margin-left: -30px;
+}
+.language ul{
+    list-style: none;
+display: flex;
+gap:5px;
+margin-left: -30px;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 2px;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: all 0.3s;
+    outline: none;
+}
+
+.add {
+    box-shadow: 0 0 0 1px #ffcc00;
+   
+}
+.add:hover {
+    background-color: #ffcc00;
+    color: #ffffff;
+}
+
+.remove {
+    box-shadow: 0 0 0 1px #c20000;
+}
+
+.remove:hover {
+    background-color: #c20000;
+    color: #ffffff;
+}
+.add-favourite-remove .btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.add-favourite-remove .btn span:first-child {
+    display: flex;
+}
+
+.add-favourite-remove .add span:first-child svg {
+    color: #ffcc00;
+    transition: all 0.5s;
+}
+.add-favourite-remove .remove span:first-child svg {
+    color: #ff0000;
+    transition: all 0.5s;
+}
+
+.add-favourite-remove .btn:hover span:first-child svg {
+   color: #ffffff;    
+}
+
+.add-favourite-remove .btn span:last-child {
+    color: #ffffff;
+    transition: all .5s;
+    font-size: 16px;
+}
+
+.add-favourite-remove .btn:hover span:last-child {
+    color: #ffffff;
+}
