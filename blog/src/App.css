@@ -1,0 +1,9 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(./images/734c710317402b7233f36b42b9e4a20f.jpg);
+background-size: cover;
+background-position:  center;
+background-repeat: no-repeat;
+min-height: 100vh;
+}
